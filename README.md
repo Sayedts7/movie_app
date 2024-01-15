@@ -7,7 +7,7 @@ Welcome to the Flutter Movie App! This project is a simple Flutter application t
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Features](#features)
-- [Project Structure](#Project-Structure)
+- [Project Structure Summary](#Project-Structure-summary)
 
 ## Project Structure
 
@@ -42,7 +42,7 @@ To run the app locally, follow these steps:
  - Mark movies as favorites.
  - View a list of favorite movies.
 
-## Project Structure
+## Project Structure Summary
 
 The project's folder structure is designed to enhance maintainability, scalability, and code readability:
 
