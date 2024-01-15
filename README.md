@@ -1,16 +1,44 @@
-# taimoor_starter
+# Flutter Movie App
 
-A new Flutter project.
+Welcome to the Flutter Movie App! This project is a simple Flutter application that fetches movie data from an API and allows users to view a list of movies and mark their favorites.
+
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Structure
+
+The project is structured to promote modularity, maintainability, and scalability. Here's an overview of the key folders:
+
+- **lib/core**: Contains core functionality and business logic.
+  - `constants`: App constants, such as API URLs, are centralized in `app_url.dart`.
+  - `models`: Data models used throughout the application.
+  - `providers`: State management using Provider package.
+  - `services`: API communication and data fetching.
+  - `utils`: Utility functions, global styles, and constants.
+
+- **lib/ui**: Holds user interface components.
+  - `favorites`: UI for displaying favorite movies.
+  - `movies_list_widget`: UI component for displaying a list of movies.
+  - `splash_screen.dart`: Initial screen displayed when the app is launched.
+
+- **lib/main.dart**: Entry point for the Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the app locally, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```bash
+   git clone https://github.com/your-username/flutter-movie-app.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+ - Fetch and display a list of movies.
+ - Mark movies as favorites.
+ - View a list of favorite movies.
