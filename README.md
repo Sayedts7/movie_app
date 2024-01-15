@@ -7,8 +7,7 @@ Welcome to the Flutter Movie App! This project is a simple Flutter application t
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Structure](#Project-Structure)
 
 ## Project Structure
 
@@ -42,3 +41,27 @@ To run the app locally, follow these steps:
  - Fetch and display a list of movies.
  - Mark movies as favorites.
  - View a list of favorite movies.
+
+## Project Structure
+
+The project's folder structure is designed to enhance maintainability, scalability, and code readability:
+
+- **Modular Design:**
+  - Logical separation into `core` and `ui` modules.
+  - `core` contains subfolders (`constants`, `models`, `providers`, `services`, `utils`) for clear organization of functionalities.
+
+- **Reusability and Scalability:**
+  - Models, providers, and services are modularized for easy reuse across different parts of the application.
+  - Modular design supports straightforward scalability, making it easy to add or extend features.
+
+- **Project Entry Points:**
+  - Key entry points (`main.dart`, `splash_screen.dart`) are placed at the root for easy identification and understanding.
+
+- **Utilization of Utils Folder:**
+  - `utils` centralizes utility functions, image paths, sizes, styles, and theme-related helpers for consistency and global configurations.
+
+- **Logical UI Component Organization:**
+  - `ui` is organized based on major UI components (`favorites`, `movies_list_widget`), facilitating code navigation and encouraging widget reusability.
+
+This structure promotes collaboration, simplifies code navigation, and establishes a foundation for a scalable Flutter application.
+
